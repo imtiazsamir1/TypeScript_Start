@@ -50,4 +50,12 @@ interface IAdd{
 
 }
 
-const add:IAdd=(num1,num2)=>num1+num2
+const add:IAdd=(num1,num2)=>num1+num2;
+
+type Friends = string[];
+
+interface IFriends {
+  [index: number]: string;
+}
+
+const freinds: IFriends = ["A", "B", "C"];
